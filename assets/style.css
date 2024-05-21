@@ -1,0 +1,113 @@
+:root {
+  --dark: #18191a;
+  --light: #ffffff;
+  --midhi: #d2b48c;
+  --midlo: #184632;
+}
+
+body {
+    background: var(--dark);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: var(--dark);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.name {
+  font-size: 25px;
+  color: var(--light);
+}
+
+.navbar a {
+  font-size: 20px;
+  text-decoration: none;
+  color: var(--light);
+  margin-left: 30px;
+}
+
+.navbar a:hover {
+    color: var(--midhi);
+    transition: .3s;
+}
+
+.home {
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.about {
+    background: var(--dark);
+    padding: 50px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.about h2 {
+    margin-bottom: 10px;
+}
+
+.projects {
+  color: var(--light);
+  display: flex;
+  align-items: center;
+  padding: 0 15%;
+}
+
+.work {
+  background: var(--dark);
+  padding: 50px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.work img {
+  height: 300px;
+  margin: 20px;
+}
+
+.contact {
+  margin: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links {
+  padding: 30px;
+  text-align: center;
+}
+
+.links h2 {
+  font-size: 25px;
+  color: var(--light);
+  margin-bottom: 25px;
+}
+
+.links a {
+  color: var(--light);
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.links a:hover {
+  color: var(--midhi);
+  transition: .3s;
+}
